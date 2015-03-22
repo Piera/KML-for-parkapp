@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Ballard Test</name>
+<description><![CDATA[Test of R hsv to kml]]></description>
+
+<Style id="Ballard ">
+<LineStyle>
+<width>0</width>
+<color>ffff0000</color>
+</LineStyle>
+<PolyStyle>
+<color>80ff6666</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+
+<Placemark>
+<name>Seattle</name>
+<description><![CDATA[]]></description>
+<styleUrl>#Ballard </styleUrl>
+<visibility>1</visibility>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-122.379074097,47.6651725769
+-122.379577637,47.663394928
+-122.379653931,47.6633453369
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388908386,47.668586731
+-122.388923645,47.668762207
+-122.387435913,47.6698188782
+-122.386138916,47.6701087952
+-122.384635925,47.6698226929
+-122.379646301,47.6687698364
+-122.37953949,47.6685829163
+-122.379074097,47.6651725769
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>
